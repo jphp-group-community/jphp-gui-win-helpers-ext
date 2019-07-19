@@ -1,0 +1,16 @@
+name: jphp-gui-win-helpers-ext
+version: 1.0.0
+
+plugins:
+  - Hub
+  - Gradle
+
+gradle:
+  deps:
+    - "net.java.dev.jna:jna:4.+"
+    - "net.java.dev.jna:jna-platform:4.+"
+
+deps:
+  jphp-runtime: '*'
+  jphp-gui-ext: '*'
+  jphp-gui-jfx-linux: '*'
